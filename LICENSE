@@ -1,0 +1,70 @@
+Reference Implementation License
+
+
+1.  Oracle USA (the "Spec Lead") for the XQuery API for Java Specification (the
+    “Specification”) hereby grants a perpetual, non-exclusive, worldwide, fully paid-up,
+    royalty-free, irrevocable (except as expressly set forth below) copyright license to use,
+    modify and distribute the Reference Implementation ("RI") in either source or binary
+    form, with or without modification; provided that the following conditions are met:
+
+    A.  Redistributions of the source code for the RI must include the following copyright
+        notice and disclaimer of warranties together with this license.
+
+    B.  Redistributions of the source code for the RI must include the following copyright
+        notice and disclaimer of warranties and this license in the documentation and/or other
+        materials provided with the distribution.
+
+    C.  Modified code, whether distributed in source or binary form, is clearly identified
+        as such.
+
+Copyright © 2003. 2007 Oracle
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED, IMPLIED OR
+STAUTORY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGMENT ARE DISCLAIMED. IN NO EVENT SHALL
+ORACLE OR ITS LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ORACLE IS
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+2.  In addition, Oracle USA hereby grants a perpetual, non-exclusive, worldwide, fully
+    paid-up, royalty-free, irrevocable (except as expressly set forth below) license under
+    any patent claims licensable by Oracle for which there is no technically feasible way
+    of avoiding infringement in the course of implementing the Specification or in the use
+    of RI code as originally distributed by Oracle (the "Unmodified RI Code") or a
+    compiled version thereof, the right to make, have made, use, offer to sell, sell or
+    import:
+
+    A.  the Unmodified RI Code, or
+
+    B.  any derivative thereof solely to the extent such derivative:
+
+        (a) is used and distributed as part of a complete binary implementation that fully
+            implements the Specification, including all its required interfaces and
+            functionality;
+
+        (b) does not modify, subset, superset or otherwise extend the Licensor Name
+            Space, or include any public or protected packages, classes, Java interfaces, fields
+            or methods within the Licensor Name Space other than those required/authorized
+            by the Specification(s); and
+
+        (c) passes the TCK for the Specification.
+
+
+3.  The licenses granted herein are conditional upon licensee's not initiating a claim
+    against Oracle or any licensee under this Agreement concerning any patent claims
+    licensable by such licensee for which there is no technically feasible way of avoiding
+    infringement in the course of implementing the Specification or in the use of
+    Unmodified RI Code.
+
+4.  Licensee may license derivatives works of the RI under any license of your choosing
+    that is not inconsistent with the terms of this license. However, unless the derivative
+    works comply with the requirements of 2B above, licensee may neither: (i) grant or
+    otherwise pass through to its sublicensees any licensable copyrights and patent rights
+    of the Oracle as Spec Lead; nor (ii) authorize its sublicensees to make any claims
+    concerning their implementation’s compliance with the Specification.
