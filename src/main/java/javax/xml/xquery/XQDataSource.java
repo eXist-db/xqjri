@@ -9,13 +9,13 @@ import java.util.Properties;
 /** 
  * An <code>XQDataSource</code> is a factory for <code>XQConnection</code>
  * objects. The datasource may be obtained from a JNDI source or through other means.
- * <br/>
+ * <p>
  * The XQuery connection (<code>XQConnection</code>) objects may be created using 
  * an existing JDBC connection. This is an optional feature that may not be
  * supported by all implementations. If the implementation supports this 
  * mechanism, then the XQuery connection may inherit some of the JDBC 
  * connection's properties, such as login timeout, log writer etc. 
- * <br/>  
+ * </p>
  */
 public interface XQDataSource
 {
@@ -97,6 +97,7 @@ public interface XQDataSource
    * <br>
    * <br>
    * <table>
+   * <caption>Properties</caption>
    * <tr><td><code>user</code></td>
    *     <td>the user name to use for creating a connection</td></tr>
    * <tr><td><code>password</code></td>

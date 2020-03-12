@@ -162,6 +162,7 @@ public interface XQSequence extends XQItemAccessor
    * Calling this method on an empty sequence 
    * will return <code>0</code>.
    *
+   * @return the current cursor position in this sequence
    *
    * @exception XQException     if (1) the sequence is forward-only, or (2)
    *                            the sequence is closed

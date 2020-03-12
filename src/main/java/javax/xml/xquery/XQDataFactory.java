@@ -13,13 +13,16 @@ import java.io.InputStream;
 /** 
  * This interface represents a factory to obtain sequences,  
  * item objects and types. 
+ *
  * <p>
- * 
  * The items, sequences and types obtained through this interface are
- * independent of any connection.   <p>
+ * independent of any connection.
+ * </p>
+ *
+ * <p>
  * The items and sequences created are immutable. The <code>close</code> method can 
  * be called to close the item or sequence and release all resources associated
- * with this item or sequence.<p>
+ * with this item or sequence.</p>
  */
 public interface XQDataFactory 
 {

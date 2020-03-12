@@ -21,7 +21,7 @@ public class XQStackTraceVariable implements Serializable {
   /** 
    * Construct a stack trace variable object. 
    *
-   * @param qname          the <code>QName of the variable in the error stack
+   * @param qname          the <code>QName</code> of the variable in the error stack
    * @param value          a vendor specific short string representation
    *                       of the value of the variable in the error stack 
    */ 

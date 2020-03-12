@@ -238,8 +238,8 @@ public interface XQItemType extends XQSequenceType
   /**
     * Returns the base type of the item. One of the <code>XQBASETYPE_*</code>
     * constants. 
-    * <br/>
-    * <br/>
+    * <br>
+    * <br>
     * XQJ defines a constant for each of the built-in schema
     * types defined in XML Schema. For atomic types this is the closest
     * matching built-in XML Schema type, for element and attributes the

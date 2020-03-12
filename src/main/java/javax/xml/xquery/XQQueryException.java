@@ -35,6 +35,7 @@ import java.lang.String;
  * function. May be <code>null</code> if not specified. </li>
  * <li>the XQuery stack trace. This provides additional dynamic
  * information where the exception occurred in the XQuery expression.</li>
+ * </ul>
  */
 
 public class XQQueryException extends XQException {
@@ -70,7 +71,7 @@ public class XQQueryException extends XQException {
    *                       <a href="http://www.w3.org/TR/xpath-functions/#error-summary">
    *                       <i>Appendix C, XQuery 1.0 and XPath 2.0 Functions and Operators</i></a>,
    *                       and its associated specifications; implementation-defined 
-   *                       errors may be raised.</li>
+   *                       errors may be raised.
    */
   public XQQueryException(String message, QName errorCode)
   {
@@ -91,7 +92,7 @@ public class XQQueryException extends XQException {
    *                       <a href="http://www.w3.org/TR/xpath-functions/#error-summary">
    *                       <i>Appendix C, XQuery 1.0 and XPath 2.0 Functions and Operators</i></a>,
    *                       and its associated specifications; implementation-defined 
-   *                       errors may be raised</li>
+   *                       errors may be raised
    * @param line           the line number in the query string where the error occured.
    *                       Line numbering starts at <code>1</code>. <code>-1</code> if unknown
    * @param column         the column number in the query string where the error occured.
@@ -125,7 +126,7 @@ public class XQQueryException extends XQException {
    *                       <a href="http://www.w3.org/TR/xpath-functions/#error-summary">
    *                       <i>Appendix C, XQuery 1.0 and XPath 2.0 Functions and Operators</i></a>,
    *                       and its associated specifications; implementation-defined 
-   *                       errors may be raised</li>
+   *                       errors may be raised
    * @param line           the line number in the query string where the error occured.
    *                       Line numbering starts at <code>1</code>. <code>-1</code> if unknown
    * @param column         the column number in the query string where the error occured.
@@ -160,7 +161,7 @@ public class XQQueryException extends XQException {
    *                       <a href="http://www.w3.org/TR/xpath-functions/#error-summary">
    *                       <i>Appendix C, XQuery 1.0 and XPath 2.0 Functions and Operators</i></a>,
    *                       and its associated specifications; implementation-defined
-   *                       errors may be raised</li>
+   *                       errors may be raised
    * @param line           the line number in the query string where the error occured.
    *                       Line numbering starts at <code>1</code>. <code>-1</code> if unknown
    * @param column         the column number in the query string where the error occured.
@@ -224,7 +225,7 @@ public class XQQueryException extends XQException {
   * Gets the character position in the query string where this exception
   * occurred.
   * <p>
-  * This is a <code>0</code> based position. <code>-1</code> if unknown.</li>
+  * This is a <code>0</code> based position. <code>-1</code> if unknown.</p>
   *
   * @return                the character position in the query string where the 
   *                        exception occurred

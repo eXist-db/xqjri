@@ -60,8 +60,7 @@ package javax.xml.xquery;
  * <code>org.w3.dom.Element</code>.
  * </li>
  * </ul>
- * 
- * <p/>
+ *
  */
 public interface XQItemAccessor 
 {

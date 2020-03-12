@@ -32,8 +32,8 @@ public interface XQSequenceType
     * Returns the occurrence indicator for the sequence type. 
     * One of:
     *
-    * <p>
     * <table>
+    * <caption>Occurrence Indicator</caption>
     * <tr><th>Description</th>
     *     <th>Value</th></tr>
     * <tr><td>Zero or one</td>
@@ -47,7 +47,6 @@ public interface XQSequenceType
     * <tr><td>Empty </td>
     *     <td><code>OCC_EMPTY</code></td></tr>
     * </table>
-    * <br>
     *
     * @return                    <code>int</code> indicating the occurrence indicator
     */

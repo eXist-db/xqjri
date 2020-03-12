@@ -32,7 +32,7 @@ public class XQCancelledException extends XQQueryException {
    *                       <a href="http://www.w3.org/TR/xpath-functions/#error-summary">
    *                       <i>Appendix C, XQuery 1.0 and XPath 2.0 Functions and Operators</i></a>,
    *                       and its associated specifications; implementation-defined
-   *                       errors may be raised</li>
+   *                       errors may be raised
    * @param line           the line number in the query string where the error occured.
    *                       Line numbering starts at <code>1</code>. <code>-1</code> if unknown
    * @param column         the column number in the query string where the error occured.
