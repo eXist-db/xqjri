@@ -1,4 +1,7 @@
 # XQJ RI
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.exist-db.thirdparty.javax.xml.xquery/xqjri/badge.svg)](https://search.maven.org/search?q=g:org.exist-db.thirdparty.javax.xml.xquery)
+
 This is a copy of Oracle's XQJ RI (XQuery for Java Reference Implementation).
 
 The code was downloaded from the JCP page [JSR-000225 XQuery API for Java (Final Release)](https://jcp.org/aboutJava/communityprocess/final/jsr225/index.html),
